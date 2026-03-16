@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- SEO Meta Tags -->
+    <title>PixCompress - AI 驱动的智能图片压缩工具</title>
+    <meta name="title" content="PixCompress - AI 驱动的智能图片压缩工具" />
+    <meta name="description" content="PixCompress 是一款纯净、安全、高效的在线图片压缩工具。采用 AI 驱动的感知量化算法与 WebAssembly 技术，在浏览器本地实现极速压缩，支持 AVIF、WebP、JPEG、PNG 等多种格式，确保您的隐私数据永不上传。" />
+    <meta name="keywords" content="图片压缩, 智能压缩, AI 压缩, 在线图片压缩, 批量图片处理, AVIF 压缩, WebP 转换, 隐私安全, PixCompress, xlongDev, Image Compression, Batch Process" />
+    <meta name="author" content="xlongDev" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xlongdev.github.io/pixcompress/" />
+    <meta property="og:title" content="PixCompress - AI 驱动的智能图片压缩" />
+    <meta property="og:description" content="让图片更轻盈。100% 本地处理，隐私透明，画质无损。支持所有主流格式批量压缩。" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://xlongdev.github.io/pixcompress/" />
+    <meta property="twitter:title" content="PixCompress - 让图片更轻盈" />
+    <meta property="twitter:description" content="利用 AI 与 Wasm 技术，在浏览器本地极致压缩您的图片，安全且极速。" />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Preload Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <style>
+      /* Prevent layout shift */
+      body { margin: 0; background-color: #f8fafc; position: relative; }
+      html { position: relative; scroll-behavior: smooth; }
+      #root { min-height: 100vh; position: relative; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
